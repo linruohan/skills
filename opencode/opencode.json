@@ -2,60 +2,63 @@
   "$schema": "https://opencode.ai/config.json",
   "provider": {
     "ollama": {
-      "npm": "@ai-sdk/openai-compatible",
-      "name": "Ollama (local)",
-      "options": {
-        "baseURL": "http://localhost:11434/v1"
-      },
       "models": {
-        "deepseek-coder:6.7b": {
-          "name": "deepseek-coder:6.7b (local)"
-        },
-        "gemma3:4b": {
-          "name": "gemma3:4b (local)"
-        },
-        "gemma2:9b": {
-          "name": "gemma2:9b (local)"
-        },
-        "mistral:7b": {
-          "name": "mistral:7b (local)"
-        },
-        "phi3:3.8b": {
-          "name": "phi3:3.8b (local)"
-        },
-        "tinyllama:latest": {
-          "name": "tinyllama (local)"
-        },
-        "smollm2:1.7b": {
-          "name": "smollm2:1.7b (local)"
-        },
-        "llama3.1:8b": {
-          "name": "llama3.1:8b (local)"
-        },
-        "qwen3:4b": {
-          "name": "qwen3:4b (local)"
-        },
         "codellama:7b": {
           "name": "codellama:7b (local)"
         },
-        "glm4:latest": {
-          "name": "glm4:latest (local)"
-        },
-        "llama3.2:latest": {
-          "name": "llama3.2:latest (local)"
+        "deepseek-coder:6.7b": {
+          "name": "deepseek-coder:6.7b (local)",
+          "title": "deepseek-coder:6.7b (local) 适合编程任务"
         },
         "deepseek-r1:8b": {
           "name": "deepseek-r1:8b (local)"
         },
+        "gemma2:9b": {
+          "name": "gemma2:9b (local)"
+        },
+        "gemma3:4b": {
+          "name": "gemma3:4b (local)"
+        },
+        "glm4:latest": {
+          "name": "glm4:latest (local)"
+        },
+        "llama3.1:8b": {
+          "name": "llama3.1:8b (local)",
+          "title": "lama3.1:8b  (local) 功能更强 "
+        },
+        "llama3.2:latest": {
+          "name": "llama3.2:latest (local)"
+        },
+        "mistral:7b": {
+          "name": "mistral:7b (local)",
+          "title": "mistral:7b (local) 支持工具调用"
+        },
         "olmo-3:7b": {
           "name": "olmo-3:7b (local)"
+        },
+        "phi3:3.8b": {
+          "name": "phi3:3.8b (local)"
         },
         "qwen3-vl:8b": {
           "name": "qwen3-vl:8b (local)"
         },
+        "qwen3:4b": {
+          "name": "qwen3:4b (local)"
+        },
         "qwen3:8b": {
           "name": "qwen3:8b (local)"
+        },
+        "smollm2:1.7b": {
+          "name": "smollm2:1.7b (local)"
+        },
+        "tinyllama:latest": {
+          "name": "tinyllama (local)"
         }
+      },
+      "name": "Ollama (local)",
+      "npm": "@ai-sdk/openai-compatible",
+      "options": {
+        "baseURL": "http://localhost:11434/v1"
       }
     }
   }
